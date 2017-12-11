@@ -1,0 +1,110 @@
+html, body { /* koko sivu mustaksi*/
+    margin: 0;
+    height: 100%;
+}
+
+.kokosivu { /*div kokosivu*/
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown-content{ /*teatteri menu*/
+    display: none; 
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 188, 62);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.dropdown-content.show{ /*teatteri menu toggle show*/
+    display: block;
+    cursor: pointer;
+    padding: 20px;
+}
+
+
+
+
+h1 { /*header*/
+    float:center;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    color: rgb(15, 15, 15)
+}
+
+.wrapper{ /*div wrapper*/
+    
+    text-align: center;
+    background-color: rgb(255, 188, 62);
+    color: rgb(0, 0, 0);
+   
+}
+#button{ /*valitse teatteri nappula*/
+    background-color: rgb(15, 15, 15);
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    border: none;
+    color: rgb(255, 188, 62);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+
+.myDiv { /*mydiv*/
+    margin: auto;
+    width:320px;
+    
+}
+
+.asdDiv { /*asdDiv*/
+    width: 25%;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.textDiv { /*div textille*/
+    height: 60px;
+    width: 320px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+.myDiv img { /*img muokkaus myDivissä*/
+    
+    display: inline-block;
+    margin: auto;
+   
+    
+}
+
+
+
+#leffaDiv { /*div jonka sisälle menee myDiv*/
+    float: center;
+    padding: 5px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 188, 62);
+
+}
+
+
+
+
+
+
+
+
+

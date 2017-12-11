@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Finnkino</title>
+	<link rel="shortcut icon" href="favicon.ico" /> <!--finnkino kuva titlen viereen -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="myScript.js"></script> <!-- linkki javascript tiedostoon  -->
+	<link rel="stylesheet" type="text/css" href="myCss.css"> <!--linkki css tiedostoon -->
+	
+</head>
+<body>
+<div class="kokosivu">
+<div class="wrapper">	
+	<img id="kuva" src="images/finnkino.png"></img> <!--ylä osion taustakuva -->
+	<h1>ELOKUVAT TÄNÄÄN</h1>
+	<button type="button" onclick="dropdown()"id="button"  class="dropbutton">VALITSE TEATTERI</button> <!--nappula joka piilottaa ja tuo dropmenun esiin -->
+</div>
+<div id="demo" class="dropdown-content show"> <!--teatteri menu -->
+	<p onclick="Elokuvat(1039)">Espoo Omena</p> <!--id jonka avulla haetaan kyseisen teatterin elokuvat -->
+	<p onclick="Elokuvat(1038)">Espoo Sello</p>
+	<p onclick="Elokuvat(1031)">Helsinki Kinopalatsi</p>
+	<p onclick="Elokuvat(1033)">Helsinki Tennispalatsi</p>
+	<p onclick="Elokuvat(1013)">Vantaa Flamingo</p>
+	<p onclick="Elokuvat(1015)">Jyväskylä Fantasia</p>
+	<p onclick="Elokuvat(1016)">Kuopio Scala</p>
+	<p onclick="Elokuvat(1017)">Lahti Kuvapalatsi</p>
+	<p onclick="Elokuvat(1041)">Lappeenranta Strand</p>
+	<p onclick="Elokuvat(1018)">Oulu Plaza</p>
+	<p onclick="Elokuvat(1019)">Pori Promenadi</p>
+	<p onclick="Elokuvat(1034)">Tampere Cine Atlas</p>
+	<p onclick="Elokuvat(1035)">Tampere Plevna</p>
+	<p onclick="Elokuvat(1022)">Turku Kinopalatsi</p>
+</div>
+
+<div id="leffaDiv"> <!--tänne tulee elokuvan kuvat ja tiedot -->
+
+
+</div>
+
+<script type="text/javascript" src="myScript.js"></script> <!-- linkki javascript tiedostoon  -->
+</div>
+</body>
+
+
+</html>
